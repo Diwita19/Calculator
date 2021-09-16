@@ -3,7 +3,6 @@ import com.jenk.MyCalculator;
 import org.junit.Test;
 
 public class MyCalculatorTest {
-	
 	@Test
 	public void test1() {
 		assertEquals(10, new MyCalculator().getSum(5,5));
@@ -18,7 +17,7 @@ public class MyCalculatorTest {
 	}
 	@Test
 	public void test4() {
-		assertEquals(0, new MyCalculator().getSum(5,5));
+		assertEquals(0, new MyCalculator().getDiff(5,5));
 	}
 
 }
